@@ -1,0 +1,154 @@
+/* CSS Document */
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+ }
+ select {
+     width:100px;
+ }
+
+form, p, span {
+    margin:0;
+    padding:0; }
+
+input { font:12px arial; }
+
+a {
+    color:#0000FF;
+    text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+
+#loginform { padding-top:18px; }
+
+#loginform p { margin: 5px; }
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+
+#submit { width: 60px; }
+
+.error { color:#ff0000; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }
+
+.msgln { margin:0 0 2px 0; }
+body
+{
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  overflow: scroll;
+}
+
+header {
+  display: block;
+  border-radius: 10px;
+  background-color: #00f;
+  width: 100%;
+  height: 100px;
+  color: #fff;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+fieldset {
+  border-radius: 10px;
+  border: 1px solid #00f;
+}
+
+label
+{
+  float: left;
+  width: 40%;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  text-align: right;
+}
+
+textarea
+{
+  float: left;
+  width: 40%;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+}
+
+input
+{
+  width: 20%;
+  padding-top: 0.2em;
+  text-align: middle;
+}
+
+footer
+{
+  display: block;
+  border: solid 1px #00f;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+
+#container
+{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main_menu
+{
+  list-style-type: none;
+  background-color: #ccf;
+  padding: 10px;
+  border-radius: 10px;
+}
+#register 
+{
+  margin-top:20px;
+}
+
+#main_menu > li
+{
+  display: inline-block;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
